@@ -1,0 +1,154 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    height:  100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    overflow: hidden;
+}
+
+/*END       OF      CALBOX*/
+
+.calculatorbox{
+    background-color: #000;
+    min-width: 450px;
+    height: 550px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+
+    padding: 15px;
+}
+
+/*END       OF      CALBOX*/
+
+a{
+
+    width:  30%;
+    height: 20px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s;
+
+    margin-left: 6px;
+}
+
+a:hover{
+    color: cyan;
+    font-size: 18px;
+    font-weight: bolder;
+    transform: translateY(-2px);
+    border-radius: 25%;
+
+}
+
+a:active{
+    transform: scale(0.98) ;
+}
+
+/*START        OF          DISPLAYBOX*/
+
+.displaybox{
+    background-color: cyan;
+    width: 100%;
+
+    margin-bottom: 20px;
+}
+
+.displaybox input{
+    background-color:  #000;
+    color: tomato;
+    width: 100%;
+    font-size: 2rem;
+    text-align: right;
+
+    border: none;
+    border-bottom: 2px solid tomato;
+
+    padding: 15px;
+    padding-top: 30px;
+}
+
+input:focus{
+    outline: none;
+}
+
+/*END       OF      DISPLAYBOX*/
+
+/*START       OF      CALBTNBOX*/
+
+.calbtnbox{
+
+    height: 80%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
+}
+
+/*END       OF      CALBTNBOX*/
+
+/*START     OF      ACT-NUM-BOX*/
+
+.act-num-box{
+
+    width: 80%;
+    height: 100%;
+
+    padding: 5px;
+}
+
+.act-num-box a{
+    height:  73px;
+    margin-bottom: 5px;
+
+    line-height: 73px;
+}
+
+
+/*END    OF      ACT-NUM-BOX*/
+
+/*START     OF      OPERATOR BOX*/
+
+.operatorbox{
+
+    width: 20%;
+    height: 100%;
+
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+    /*flex-direction: column;*/
+
+    padding: 5px;
+}
+
+.operatorbox a{
+    font-size: 25px;
+    width: 100%;
+    height: 73px;
+
+    display: block;
+
+    line-height: 73px;
+    margin: 0;
+    margin-bottom:5px;
+}
+
+.operatorbox a:hover{
+    font-size:  32px;
+}
+
+/*END     OF      OPERATOR BOX*/
+
+
+
