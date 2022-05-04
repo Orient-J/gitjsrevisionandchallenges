@@ -1,0 +1,143 @@
+/**{*/
+/*    !*opacity: 0;*!*/
+/*}*/
+
+/*body{*/
+/*    !*width: 100vw;*!*/
+/*    !*height: 100vh;*!*/
+/*    background-image: url("./../image/2048px-Circle-icons-gamecontroller.svg.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
+
+/*#external{*/
+/*    font-style: italic;*/
+/*}*/
+
+/*.inline{*/
+/*    background-color: black;*/
+/*}*/
+
+
+
+/*.inline{*/
+
+/*    !*Single Line Comment*!*/
+
+/*    !*font-size: 3rem;*!*/
+
+/*    !*Multi Line Comment*!*/
+
+/*    !*width: 700px;*/
+/*    text-decoration: line-through;*!*/
+
+
+/*}*/
+
+/*div{*/
+/*    max-width: 500px;*/
+/*    min-height: 200px;*/
+/*    text-align: center;*/
+/*    line-height: 200px;*/
+
+/*    border-width: 5px;*/
+/*    border-style: outset;*/
+/*    border-color: rgba(75,100,125,0.4);*/
+
+/*    border-top-left-radius: 20px;*/
+/*    border-top-right-radius: 40px;*/
+/*    border-bottom-right-radius: 60px;*/
+/*    border-bottom-left-radius: 100px;*/
+/*}*/
+
+/*.naming{*/
+/*    background-color: cyan;*/
+/*}*/
+
+/*.hex{*/
+/*    background-color: #ffa3cd;*/
+/*}*/
+
+/*.rgb{*/
+/*    background-color: rgb(225,125,100);*/
+/*}*/
+
+/*.rgba{*/
+/*    background-color: rgba(225,125,100,0.3);*/
+/*}*/
+
+/*.letterspacing{*/
+/*    letter-spacing: 10px;*/
+/*    text-shadow: 10px -10px 10px black, -10px 10px 11px #ff3dad;*/
+/*}*/
+
+
+/*a{*/
+/*    color: darkcyan;*/
+/*    text-decoration: overline;*/
+/*    font-size: 20px;*/
+/*    background-color: black;*/
+
+/*    !*padding: 20px;*!*/
+/*    !*padding: 10px 20px 30px 40px;*!*/
+/*    !*padding: 20px 40px;*!*/
+/*    !*padding-top: 5px;*!*/
+/*    !*padding-right: 10px ;*!*/
+/*    !*padding-left: 20px;*!*/
+/*    !*padding-bottom: 40px;*!*/
+
+
+
+/*    cursor: crosshair;*/
+/*}*/
+
+/*a:visited{*/
+/*    color: cyan;*/
+/*}*/
+
+/*a:hover{*/
+/*    letter-spacing: 10px;*/
+/*    transition: all 2s ease-in;*/
+/*}*/
+
+/*div:hover{*/
+/*    opacity: 0.5;*/
+/*    transition: all 0.2s linear;*/
+/*}*/
+
+/*.rgba{*/
+/*    background-color: transparent;*/
+/*}*/
+
+
+.box{
+    width: 50px;
+    height: 100px;
+    background-color: black;
+}
+
+.box:hover{
+
+
+
+    animation-name: boxhover;
+    animation-duration: 2s;
+
+    transform-origin: bottom right;
+
+}
+
+@keyframes boxhover{
+
+    0%{
+        transform: translate(0,0);
+     }
+
+    50%{
+        transform: translateY(-200px) translateX(100px) rotate(45deg);
+    }
+
+     100%{
+         transform:translateY(-200px) translateX(200px) rotate(90deg) ;
+     }
+}
